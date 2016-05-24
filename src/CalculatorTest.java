@@ -5,9 +5,7 @@ import org.junit.Test;
 public class CalculatorTest {
 
 	@Test
-	public void testEmptyString() {
-		fail("Not yet implemented");
-		
+	public void testEmptyString() {		
 		Calculator cal = new Calculator();
 		int res;
 		res = cal.add("");
